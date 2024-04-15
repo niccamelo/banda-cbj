@@ -108,7 +108,7 @@ header img {
 
     .img-logo {
         top: 2rem;
-        right: 6rem;
+        right: 7.2rem;
     }
 
     nav .navbar{
@@ -128,10 +128,9 @@ header img {
     }
     .card-body {
         display: flex;
-        justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-left: 3rem;
+        text-align: center;
 
     }
     .card-text {
@@ -161,12 +160,21 @@ header img {
         width: 400px;
     }
 
-    .card-body {
-        width: 300px;
-        margin-top: 2rem;
+    .card-title {
+        align-items: center;
     }
 
     .title-principal {
        margin-top: 2rem;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    .row {
+        margin: 0;
+        width: 410px;
+        padding: 0;
     }
 }
